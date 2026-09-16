@@ -4,7 +4,7 @@ NullTrace is a direct peer-to-peer messenger for Android 14 and later. This beta
 
 ## Try the beta
 
-Use the signed APK and checksum in `Beta_v1/`. This is a **closed beta candidate**; use test conversations while completing the physical-device acceptance checks in `BETA_TEST_PLAN.md`. The custom protocol has not received an independent security audit or FIPS module validation.
+Use the signed APK and checksum in `Beta_v2.2/`. This is a **closed beta candidate**; use test conversations while completing the physical-device acceptance checks in `BETA_TEST_PLAN.md`. The custom protocol has not received an independent security audit or FIPS module validation.
 
 1. Install on two Android 14+ devices and create separate identities with a 4–8 digit PIN. The optional, different duress PIN erases the primary vault and opens a decoy. There is no default PIN.
 2. In Settings, choose your network policy. Strict VPN mode requires a detected Android VPN for outbound delivery; additionally configure Android always-on VPN and “Block connections without VPN” for system-level protection. NullTrace cannot determine the VPN's cryptographic algorithms.
