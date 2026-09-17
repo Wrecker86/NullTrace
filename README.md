@@ -40,4 +40,4 @@ The second command requires an attached Android 14+ device or emulator. Release 
 
 Signing credentials are external to source. Set `NULLTRACE_SIGNING_PROPERTIES` to a private properties file based on `signing.properties.example`. On the development Mac, the default is `~/Library/Application Support/NullTraceSigning/signing.properties`; existing signing keys were preserved there. Without that file the release artifact is unsigned. Never distribute a keystore, signing properties, local backups, or the entire development directory.
 
-See `BETA_RELEASE_NOTES.md` for the remediation record, `BETA_TEST_PLAN.md` for acceptance checks, and [SECURITY.md](.github/SECURITY.md) for supported Android versions, vulnerability reporting, and authorized testing rules.
+See `BETA_RELEASE_NOTES.md` for the remediation record, `BETA_TEST_PLAN.md` for acceptance checks, and [SECURITY.md](SECURITY.md) for supported Android versions, vulnerability reporting, and authorized testing rules.
