@@ -4,7 +4,7 @@ NullTrace is a direct peer-to-peer messenger for Android 14 and later. This beta
 
 ## Try the beta
 
-Use the signed APK and checksum in `Beta_v2.2/`. This is a **closed beta candidate**; use test conversations while completing the physical-device acceptance checks in `BETA_TEST_PLAN.md`. The custom protocol has not received an independent security audit or FIPS module validation.
+Use the signed APK and checksum in `Betas/beta-v2.2/`. This is a **closed beta candidate**; use test conversations while completing the physical-device acceptance checks in `BETA_TEST_PLAN.md`. The custom protocol has not received an independent security audit or FIPS module validation.
 
 1. Install on two Android 14+ devices and create separate identities with a 4–8 digit PIN. The optional, different duress PIN erases the primary vault and opens a decoy. There is no default PIN.
 2. In Settings, choose your network policy. Strict VPN mode requires a detected Android VPN for outbound delivery; additionally configure Android always-on VPN and “Block connections without VPN” for system-level protection. NullTrace cannot determine the VPN's cryptographic algorithms.
@@ -40,4 +40,4 @@ The second command requires an attached Android 14+ device or emulator. Release 
 
 Signing credentials are external to source. Set `NULLTRACE_SIGNING_PROPERTIES` to a private properties file based on `signing.properties.example`. On the development Mac, the default is `~/Library/Application Support/NullTraceSigning/signing.properties`; existing signing keys were preserved there. Without that file the release artifact is unsigned. Never distribute a keystore, signing properties, local backups, or the entire development directory.
 
-See `BETA_RELEASE_NOTES.md` for the remediation record and `BETA_TEST_PLAN.md` for acceptance checks. No Git repository was present in the supplied project; changes are in the working files.
+See `BETA_RELEASE_NOTES.md` for the remediation record, `BETA_TEST_PLAN.md` for acceptance checks, and [SECURITY.md](.github/SECURITY.md) for supported Android versions, vulnerability reporting, and authorized testing rules.
