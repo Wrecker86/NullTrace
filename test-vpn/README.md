@@ -13,3 +13,5 @@ adb shell monkey -p org.pqcrypto.testvpn 1
 ```
 
 Open the app, select **Start test VPN**, approve Android's VPN consent dialog, then launch NullTrace. Android should report `org.pqcrypto.testvpn` as an active VPN transport on `tun0`.
+
+USE THIS ONLY FOR TESTING IF YOU DO NOT HAVE A VPN PROVIDER.
