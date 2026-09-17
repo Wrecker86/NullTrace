@@ -9,7 +9,7 @@ NullTrace currently supports Android 14, Android 15, and Android 16 on devices t
 | Beta v2.2 | Yes |
 | Older beta releases | No |
 
-Android versions newer than Android 16 may work, but they are not considered supported until they pass the project acceptance checks. Older Android versions are are supported down to Android 14.
+Android versions newer than Android 16 may work, but they are not considered supported until they pass the project acceptance checks. Older Android versions are supported down to Android 14.
 
 Beta builds are experimental. The custom messaging protocol has not received an independent security audit or FIPS module validation. Do not use NullTrace beta builds as the sole protection for high-risk or life-critical communications.
 
