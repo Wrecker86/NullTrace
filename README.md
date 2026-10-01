@@ -23,7 +23,6 @@ A queued message has not yet been accepted by the recipient. Delivered means its
 - Voice and disappearing messages use a sender-selected absolute expiry; devices should have automatic time enabled. Expiration and deletion cannot erase recipient-made copies. Android immutable strings, memory copies and flash storage prevent guaranteed forensic erasure.
 - Deleting a message/chat removes its queued deliveries and cancels pending connections. Data already transmitted cannot be recalled. Whole-vault purge stops transport, deletes the vault and removes its master key. Close the app using the purge screen before creating a new identity.
 - Storage is bounded to 32 MiB, outbox to 1,000 entries, sessions to 256 and replay receipts to 100,000. The beta does not provide archival history, automatic session/receipt compaction, cloud recovery, or background delivery guarantees.
-- Mesh radio and optical vault migration code remain experimental and are not exposed in beta navigation.
 
 **Alpha compatibility:** beta protocol v2 creates a fresh encrypted vault and requires new pairing. Alpha invitations, sessions and migration workflows are incompatible. Old alpha data is not imported automatically; preserve the old installation if you need its history. Existing historical alpha packages in this project are not the beta distribution.
 
